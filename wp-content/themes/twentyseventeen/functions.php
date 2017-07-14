@@ -580,6 +580,7 @@ function create_post_type() {
 			'public' => true,
 			'has_archive' => true,
             'rewrite' => array('slug' => 'events'),
+            'menu_icon'   => 'dashicons-products',
 		)
 	);
 }
