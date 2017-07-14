@@ -14,7 +14,6 @@ endif;
 ?>
 <header class="entry-header">
 	<?php
-	if ( 'event' === get_post_type() ) {
 		echo '<div class="entry-meta">';
 		if ( is_single() ) {
 			twentyseventeen_posted_on();
@@ -23,7 +22,7 @@ endif;
 			twentyseventeen_edit_link();
 		};
 		echo '</div><!-- .entry-meta -->';
-	};
+
 
 	if ( is_single() ) {
 		the_title( '<h1 class="entry-title">', '</h1>' );
